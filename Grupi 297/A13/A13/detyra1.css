@@ -1,0 +1,19 @@
+p {
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline overline;
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    line-height: 50px;
+    color: blue;
+}
+
+p {
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}

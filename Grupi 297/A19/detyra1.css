@@ -1,0 +1,16 @@
+table{
+    border: 1px solid black ;
+border-collapse: collapse;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: rgb(178, 255, 178);
+}

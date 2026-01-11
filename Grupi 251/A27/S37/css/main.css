@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #00b894;
+}
+
+.road {
+  margin: 0 auto;
+  height: 100vh;
+  width: 600px;
+  background-color: #636e72;
+  position: relative;
+  overflow: hidden;
+}
+
+.bars {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bars div {
+  height: 50px;
+  width: 15px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.car {
+  position: absolute;
+  width: 100px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  animation: drive 3s infinite;
+}
+

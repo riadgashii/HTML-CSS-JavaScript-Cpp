@@ -1,0 +1,19 @@
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="password"] {
+    background-color: red;
+}
+
+input[type="text"]:focus {
+    background-color: #8842d5;
+}
+
+button:hover {
+    background-color: red;
+}
+
+a:hover {
+    color: yellow;
+}

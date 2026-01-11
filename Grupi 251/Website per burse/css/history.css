@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+
+
+
+}
+
+
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.top-menu {
+    text-align: right;
+    position: relative;
+    top: 30px;
+}
+
+.menu {
+    list-style: none;
+    display: inline-flex;
+    gap: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.flat-icon-search {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.menu li a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.title {
+    max-width: 50%;
+}
+
+.muzeu {
+    position: relative;
+    left: 78px;
+}
+
+.titulli {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+.emblema-kosoves {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 18px;
+}
+
+.header-buttons {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.header-buttons .dropdown {
+    position: relative;
+}
+
+.dropdown-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-link:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px 0;
+    z-index: 1000;
+    min-width: 200px;
+}
+
+.dropdown-content li {
+    list-style: none;
+}
+
+.dropdown-content li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content li a:hover {
+    background-color: #f5f5f5;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    background-color: #000;
+    color: #f5f5f5;
+
+}
+
+.footer-content {
+    display: flex;
+
+}
+
+.left-footer {
+    width: 600px;
+    margin: 20px;
+}
+
+
+
+
+.left-footer-images {
+    margin-top: 1px;
+
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999;
+    background-color: #999;
+    border-radius: 80%;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.left-footer-images:hover {
+    transform: scale(1.09);
+    background-color: #f5f5f5;
+    transition: 0.4s all ease;
+}
+
+.sign-up-bar {
+    display: flex;
+    height: 30px;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.sign-up {
+    border: 1px solid white;
+    background-color: black;
+    color: #f5f5f5;
+    width: 200px;
+    border-radius: 0%;
+}
+
+.sign-up-button {
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    width: 90px;
+
+}
+
+.right-footer {
+    display: block;
+    margin: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sign-up-button:hover {
+    background-color: #000;
+    color: #f5f5f5;
+    transition: 0.5s ease all;
+    cursor: pointer;
+}
+
+.background {
+    background-image: url(./../img/hyjnesha.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300vh;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+
+}
+
+.history {
+    background-color: #f5f5f5;
+    position: relative;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #f5f5f5;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 1000px;
+    position: absolute;
+    top: 500px;
+    left: 240px;
+    text-align: justify;
+ 
+}
+.history h2{
+    margin: 80px;
+}
+.history p{
+    width: 700px;
+margin-bottom: 30px;
+}
+.history:hover{
+    background-color: #f5f5f5;
+    color: #000;
+    transition: 0.5s ease all;
+}

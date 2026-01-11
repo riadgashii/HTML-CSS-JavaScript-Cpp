@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+
+
+
+}
+
+
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.top-menu {
+    text-align: right;
+    position: relative;
+    top: 30px;
+}
+
+.menu {
+    list-style: none;
+    display: inline-flex;
+    gap: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.flat-icon-search {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.menu li a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.title {
+    max-width: 50%;
+}
+
+.muzeu {
+    position: relative;
+    left: 78px;
+}
+
+.titulli {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+.emblema-kosoves {
+   height: 40px;
+   width: 40px;
+   display: flex;
+   position: relative;
+ left: 0px;
+ top: 18px;
+}
+
+.header-buttons {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.header-buttons .dropdown {
+    position: relative;
+}
+
+.dropdown-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-link:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px 0;
+    z-index: 1000;
+    min-width: 200px;
+}
+
+.dropdown-content li {
+    list-style: none;
+}
+
+.dropdown-content li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content li a:hover {
+    background-color: #f5f5f5;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.first-background {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 80%;
+    position: relative;
+}
+
+.content-container {
+    transition: all 0.7s ease;
+    border: 1px solid #f5f5f5;
+    width: 300px;
+    position: absolute;
+    flex-direction: row;
+    text-align: center;
+    top: 400px;
+    left: 100px;
+    background-color: #f5f5f5;
+    color: #000;
+    height: 300px;
+    font-size: 15px;
+
+}
+
+.welcome-content {
+    font: bold;
+    font-weight: 1000;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.hero-content {
+    font-size: 13px;
+    margin-top: 18px;
+    flex-wrap: wrap;
+    
+
+}
+
+.button-content {
+    transition: all 0.7 ease;
+    margin-top: 18px;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    width: 220px;
+    height: 30px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: #f5f5f5;
+    background-color: #000;
+    justify-self: middle;
+}
+
+.button-text {
+    transition: all 0.7 ease;
+    color: #f5f5f5;
+
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+    font-size: 12px;
+
+}
+
+.content-container:hover {
+    transition: all 0.7s ease;
+    background-color: #000;
+    color: #f5f5f5;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.content-container:hover .button-content {
+    background-color: #f5f5f5;
+    transition: all 0.7s ease;
+
+}
+
+.content-container:hover .button-text {
+    transition: all 0.7 ease;
+    color: #000;
+}
+
+.inner-section {
+    background-color: #000;
+    color: #f5f5f5;
+    display: flex;
+    height: 100px;
+
+}
+
+.left-inner-section {
+    display: flex;
+    position: relative;
+    left: 50px;
+    justify-content: left;
+    align-items: center;
+}
+
+.right-inner-section {
+    position: relative;
+    left: 600px;
+    align-content: center;
+}
+
+.inner-section-2 {
+    background-color: #000;
+    color: #f5f5f5;
+    display: flex;
+    border-top: 1px solid #444;
+    flex-direction: column;
+    height: 600px;
+}
+
+.inner-section-2-title {
+    margin: 20px;
+    margin-left: 50px;
+
+}
+
+.inner-section-2-cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-title {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.card-text {
+    margin: 20px;
+}
+
+.card-1 {
+    width: 400px;
+    text-align: center;
+    background-color: #222;
+    height: 400px;
+    transition: 0.7s all ease-in;
+
+
+}
+
+.card-2 {
+    transition: 0.7s all ease-in;
+    width: 400px;
+    text-align: center;
+    background-color: #222;
+    height: 400px;
+}
+
+.card-1:hover,
+.card-2:hover {
+    transition: 0.7s all ease-in;
+    transform: scale(1.09);
+    box-shadow: 0 8px 16px #000;
+    cursor: pointer;
+
+}
+
+.card-1:hover .card-title,
+.card-2:hover .card-title {
+    transform: scale(1);
+    transition: 0.7s all ease-in;
+    text-decoration: underline;
+
+
+}
+
+.parent-div {
+    position: relative;
+}
+
+.second-background {
+    background-image: url(./../img/Kosovo\ Museum.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+
+}
+
+.member-banner {
+    z-index: 1;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+    color: #000;
+    display: flex;
+    position: absolute;
+    width: 1000px;
+    justify-self: center;
+    height: 250px;
+    align-items: center;
+    margin-bottom: 0;
+    left: 10%;
+    transform: translatey(-160%);
+}
+
+.left-member-banner {
+    width: 500px;
+    margin: 30px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.right-member-banner {
+    width: 400px;
+
+}
+
+.right-member-banner-p {
+    margin-left: 20px;
+}
+
+.right-member-banner-button {
+    border: 1px solid black;
+    background-color: #000;
+    color: #f5f5f5;
+    height: 40px;
+    text-align: center;
+    width: 300px;
+    transition: 0.7s all ease;
+    position: relative;
+    bottom: -30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+
+}
+
+.right-member-banner-button-p {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 7px;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.right-member-banner-button:hover .right-member-banner-button-p {
+    transition: all 0.7s ease;
+    color: #000;
+
+
+}
+
+.right-member-banner-button:hover {
+    transition: 0.7s all ease;
+    background-color: #f5f5f5;
+}
+
+footer {
+    background-color: #000;
+    color: #f5f5f5;
+
+}
+
+.footer-content {
+    display: flex;
+
+}
+
+.left-footer {
+    width: 600px;
+    margin: 20px;
+}
+
+
+
+
+.left-footer-images {
+    margin-top: 1px;
+
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999;
+    background-color: #999;
+    border-radius: 80%;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.left-footer-images:hover {
+    transform: scale(1.09);
+    background-color: #f5f5f5;
+    transition: 0.4s all ease;
+}
+.sign-up-bar{
+    display: flex;
+    height: 30px;
+    margin-top: 5px;
+   justify-content: center;
+}
+.sign-up{
+    border: 1px solid white;
+    background-color: black;
+    color: #f5f5f5;
+    width: 200px;
+    border-radius: 0%;
+}
+.sign-up-button{
+    background-color: #f5f5f5;
+    border:1px solid #f5f5f5;
+   width: 90px;
+
+}
+.right-footer{
+    display: block;
+    margin: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sign-up-button:hover{
+    background-color: #000;
+    color: #f5f5f5;
+    transition: 0.5s ease all;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        justify-content: center;
+    }
+
+    .header-buttons {
+        justify-content: center;
+    }
+}

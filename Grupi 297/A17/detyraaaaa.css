@@ -1,0 +1,115 @@
+.left{
+    display: inline-block;
+    margin: 40px;
+    background-color: #ffffff;
+    border:3px  solid rgb(255, 255, 255);
+    border-radius: 4%;
+    vertical-align: middle;
+    height: 500px;
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px 30px;
+
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+span{
+    font-size: medium;
+    color: #a5adbb;
+font-family:'Open Sans', sans-serif;
+}
+img{
+    height: 40px;
+    width: 60px;
+}
+.heading1{
+    color: #F3B10E;
+    font-family:serif;
+}
+.heading2{
+    color: #1DABF2;
+    font-family:serif;
+}
+.heading3{
+    color:#46D68C;
+    font-family:serif;
+}
+p{
+    margin: auto;
+   padding-left: 5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   color: #92969D;
+    font-size:small;
+    font-family: serif;
+}
+.line{
+    width: 200px;
+    height: 10px;
+    border-bottom: 2px solid #EBECED;
+    position: absolute;
+}
+li{
+    margin-left: -30px;
+    font-size: x-small;
+    color: #6E798C;
+    font-family: serif;
+}
+ul{
+   list-style-image: url(images/tick.PNG);
+}
+.button1{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #EBECED;
+    background-color: #EBECED;
+    color: #798289;
+    border-radius: 4%;
+    margin-top: 10px;
+}
+.button2{
+    width: 200px;
+    height: 50px;
+    border: 2px solid #EBECED;
+    background-color: #ffffff;
+    color: #798289;
+    border-radius: 4%;
+    margin-top: 10px;
+}
+.button3{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #EBECED;
+    background-color:#46D68C;
+    color: #ffffff;
+    border-radius: 4%;
+    margin-top: 10px;
+}
+.middle{
+    display: inline-block;
+    background-color: #ffffff;
+    border: 5px solid white;
+    border-radius:4%;
+    vertical-align: middle;
+    margin: 0% 3%;
+    width:200px;
+    height: 500px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+.right{
+    display: inline-block;
+    background-color: #ffffff;
+    border: 5px solid white;
+    border-radius:4%;
+    vertical-align: middle;
+    margin: 0% 3%;
+    width:200px;
+    height: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+

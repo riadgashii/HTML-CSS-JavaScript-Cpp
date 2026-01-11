@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muzeu Kombetar i Kosoves</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="title">
+            <h2 class="titulli">
+                <span class="muzeu">Muzeu</span><br>
+                Kombetar i Kosoves<br>
+                <img class="emblema-kosoves" src="img/emblema-kosoves.png" alt="Kosovo Emblem">
+            </h2>
+        </div>
+        <nav class="header-button-menu">
+            <ul class="header-buttons">
+                <li class="dropdown">
+                    <input type="checkbox" id="visit-toggle" class="toggle">
+                    <label for="visit-toggle" class="dropdown-btn">Visit</label>
+                    <ul class="dropdown-content">
+                        <li><a href="#history">History</a></li>
+                        <li><a href="#exhibits">Exhibits</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#tours">Guided Tours</a></li>
+                    </ul>
+                </li>
+                <li class="popup">
+                    <input type="checkbox" id="membership-toggle" class="toggle">
+                    <label for="membership-toggle" class="popup-btn">Membership</label>
+                    <div class="popup-content">
+                        <div class="card">Membership Type 1</div>
+                        <div class="card">Membership Type 2</div>
+                        <div class="card">Membership Type 3</div>
+                    </div>
+                </li>
+                <li class="popup">
+                    <input type="checkbox" id="support-toggle" class="toggle">
+                    <label for="support-toggle" class="popup-btn">Support us</label>
+                    <div class="popup-content form-popup">
+                        <form>
+                            <label for="first-name">First Name:</label>
+                            <input type="text" id="first-name" required>
+                            <label for="last-name">Last Name:</label>
+                            <input type="text" id="last-name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" required>
+                            <label for="amount">Donation Amount:</label>
+                            <input type="number" id="amount" required>
+                            <button type="submit">Donate</button>
+                        </form>
+                    </div>
+                </li>
+                <li class="popup">
+                    <input type="checkbox" id="about-toggle" class="toggle">
+                    <label for="about-toggle" class="popup-btn">About us</label>
+                    <div class="popup-content">
+                        <div class="card">This is where you can add your own text about the museum.</div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <img class="first-background" src="img/licensed-image.jpg" alt="Background Image">
+    </div>
+</body>
+
+</html>

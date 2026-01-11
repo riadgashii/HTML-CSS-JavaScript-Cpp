@@ -1,0 +1,18 @@
+.tekst{
+    color: white;
+    background-color: purple;
+padding: 10px;
+width: 400px;
+height: 150px;
+
+
+
+}
+.float-box{
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 5px;
+}

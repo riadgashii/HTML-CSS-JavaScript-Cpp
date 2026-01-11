@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    position: absolute;
+    transform: translateX(0px);
+    color: white;
+    transform: translate(120px, -190px);
+}
+
+h5 {
+    display: flex;
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    transform: translate(140px, -145px);
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    opacity: 60%;
+    width: 380px;
+
+}

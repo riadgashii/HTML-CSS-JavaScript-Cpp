@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    background: #02044a;
+    border-radius: 30px;
+    height: 98vh;
+    box-sizing: border-box;
+    padding: 40px 100px;
+    color: white;
+}
+
+.left {
+    width: 60%;
+    float: left;
+    vertical-align: middle;
+}
+
+.right {
+    height: 100%;
+    width: 40%;
+    float: left;
+    vertical-align: middle;
+}
+
+.contact-title {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.contact-description {
+    color: #a3a4bd;
+    font-size: 20px;
+    max-width: 400px;
+    line-height: 40px;
+
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 120px;
+
+}
+
+.contact-list li {
+    margin: 20px 0;
+    color: #a3a4bd;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    max-width: 300px;
+    height: 65px;
+    cursor: pointer;
+
+
+
+}
+
+.contact-list li:hover {
+    border: 2px solid #0c75ff;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.contact-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+    position: relative;
+    top: 5px;
+
+
+}
+
+.social-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 250px;
+}
+
+.social-list li {
+    display: inline-block;
+    margin: 0px 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.social-list li .contact-icon {
+    position: relative;
+    left: 13px;
+    right: 13px;
+}
+
+.social-list li:hover {
+    border-radius: 100%;
+    background-color: #0c75ff;
+}
+
+
+
+form {
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: white;
+    height: 90%;
+    margin-top: 40px;
+    border-radius: 30px;
+    color: #02044a;
+}
+
+label {
+    font-weight: 500;
+}
+
+input,
+textarea {
+    display: block;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    border: 2px solid #ececf2;
+    border-radius: 8px;
+    font-family: inherit;
+
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #0c75ff;
+}
+textarea{
+    margin: 10px;
+    border: none;
+    resize: none;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: inherit;
+    color: #a3a4bd;
+    font-size: 16px;
+    max-height: 200px;
+}
+
+textarea:focus{
+    outline: none;
+    border: 2px solid #0c75ff;
+}
+input{
+    margin: 10px 0;
+    height: 50px;
+    padding-left: 60px;
+
+}
+.form-control{
+    position: relative;
+    margin-bottom: 30px;
+}
+.control-icon{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 42px;
+    left: 20px;
+}
+button{
+    background-color: #0c75ff;
+    border: none;
+height: 50px;
+width: 200px;
+color: white;
+font-family: inherit;
+font-size: 17px;
+border-radius: 10px;
+float: right;
+}

@@ -1,0 +1,43 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+p,
+.description {
+    color: red;
+} */
+
+/* div+p {
+    background-color: red;
+
+}
+div p{
+    color: blue;
+} */
+
+/* p ~ ul{
+    background-color: red;
+} */
+
+
+/* p:first-child{
+    background-color: yellow;
+}
+
+p:last-child{
+    background-color: red;
+} */
+
+
+/* p:nth-child(3){
+    background-color: red;
+} */
+
+
+p:nth-of-type(odd){
+    background-color: red;
+}
+p:nth-of-type(even){
+    background-color: blue;
+}

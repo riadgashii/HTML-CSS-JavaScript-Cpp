@@ -1,0 +1,54 @@
+/* .div1{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transform: translate(200px,200px);
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transform: rotate(90deg);
+    }
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transform: scale(1);
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    transform: skew(80deg,0deg); 
+} */
+
+/* .matrix{
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    transform: matrix();
+} */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.container{
+    perspective: 500px;
+
+}
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    transition: transform 1s ;
+    transform-style: preserve-3d;
+}
+.box:hover{
+    transform: rotateX(45deg) rotateY(45deg) translateZ(100px);
+}

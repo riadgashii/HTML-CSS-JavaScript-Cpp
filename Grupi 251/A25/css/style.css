@@ -1,0 +1,27 @@
+/* .div1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s ;
+    transition: background-color 1s ease;
+    transition: width 2s, height 4s;
+}
+.div1:hover{
+width: 200px;
+height
+background-color: green;
+
+} */
+
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* transition: background-color 3s ease 2s; */
+/* transition-property: width ;
+transition-duration: 1s; */
+transition: width 1s ease-in-out;
+}
+.div1:hover{
+   width: 600px;
+}

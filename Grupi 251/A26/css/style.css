@@ -1,0 +1,51 @@
+/* Ndrrimi i ngjyrave me key frame */
+/* .box{
+    width: 100px;
+    height: 100px;
+background-color: blue      ;   
+animation: changeColor 3s infinite;
+}
+
+@keyframes changeColor {
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: green;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: red;
+    }
+} */
+
+/* Levizja e topit duke perdorur Keyframe dhe Animation */
+.topi{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+    animation: moveball 2s infinite;
+}
+@keyframes moveball {
+    0% {
+        left: 0;
+
+    }
+    25%{
+        left: 150px;
+    }
+   
+    50%{
+        left: 300px;
+    }
+    75%{
+        left: 150px;
+    }
+    100%{
+        left: 0;
+    }
+}

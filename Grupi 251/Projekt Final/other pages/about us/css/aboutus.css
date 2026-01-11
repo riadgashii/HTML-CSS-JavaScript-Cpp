@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0067bb;
+    --primary-dark: #005091;
+    --secondary-color: #f7d632;
+    --text-light: #f5f5f5;
+    --text-dark: #010101;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+    position: relative;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-leftside {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--text-light);
+}
+
+.emblema-kosoves {
+    width: 60px;
+    height: 60px;
+}
+
+.header-rightside {
+    display: flex;
+    transition: all 0.3s ease;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header-buttons a {
+    color: var(--text-light);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.header-buttons a:hover {
+    background-color: var(--primary-dark);
+    color: var(--secondary-color);
+}
+
+.hamburger {
+    display: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.about-page {
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+    padding: 0 20px;
+    line-height: 1.6;
+  }
+  
+  .hero {
+    background: url('../img/Kupa-e-Kosoves-ne-basketboll.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  
+  .hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+ 
+  
+  .section-title h2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 40px 0 20px;
+  }
+  
+  .content-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .box {
+    flex: 1 1 300px;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .timeline {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  .timeline ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .timeline li {
+    margin: 15px 0;
+    padding-left: 20px;
+    border-left: 3px solid #0055a5;
+  }
+  
+  .what-we-do {
+    background: #f0f8ff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .activities {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  .activity {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.1em;
+  }
+  
+  .cta {
+    text-align: center;
+    padding: 60px 20px;
+    background: #0055a5;
+    color: white;
+  }
+  
+  .cta a.cta-button {
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+.site-footer {
+    background: linear-gradient(to right, var(--primary-dark), var(--primary-color));
+    color: var(--text-light);
+    padding: 4rem 1rem 0;
+    position: relative;
+    margin-top: auto;
+    border-top: 3px solid var(--secondary-color);
+    box-shadow: 0 -5px 20px rgba(0,0,0,0.2);
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+
+.footer-section {
+    padding: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-section h4 {
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-emblem {
+    width: 60px;
+    margin-bottom: 1rem;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+    color: var(--text-light);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.footer-links a::before {
+    content: "🏀";
+    position: absolute;
+    left: -25px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--secondary-color);
+    padding-left: 25px;
+}
+
+.footer-links a:hover::before {
+    opacity: 1;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    color: var(--secondary-color);
+    font-size: 1.8rem;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: translateY(-3px);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding: 2rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+@media (max-width: 768px) {
+    .nav-container {
+        flex-wrap: wrap;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .header {
+        z-index: 1000;
+    }
+
+    .header-rightside {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        background-color: var(--primary-dark);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 1rem;
+        z-index: 999;
+    }
+
+    .header-rightside.active {
+        display: flex;
+    }
+
+    .header-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    .header-buttons a {
+        width: 100%;
+        padding: 1rem;
+        pointer-events: auto;
+        transition: all 0.3s ease;
+    }
+
+    .header-buttons a:hover {
+        background-color: var(--secondary-color);
+        color: var(--text-dark);
+    }
+
+    .header-leftside h3 {
+        font-size: 1rem;
+    }
+
+    .emblema-kosoves {
+        width: 40px;
+        height: 40px;
+    }}

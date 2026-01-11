@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    font-family: "roboto", sans-serif;
+
+}
+
+.container {
+    background-color: #02044a;
+    border-radius: 30px;
+    height: 98vh;
+    box-sizing: border-box;
+    padding: 40px 100px;
+    color: white;
+}
+
+.left {
+    width: 60%;
+    float: left;
+    vertical-align: middle;
+}
+
+.right {
+    height: 100%;
+    width: 40%;
+    float: left;
+    vertical-align: middle;
+}

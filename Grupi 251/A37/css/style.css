@@ -1,0 +1,96 @@
+/* .tooltip{
+    position: relative;
+    border-bottom: 1px dashed #000;
+}
+.tooltip:before{
+content: attr(data-text);
+position: absolute;
+
+top: 50%;
+transform: translateY(-50%);
+
+left: 100%;
+margin-left: 15px;
+
+width: 200px;
+padding: 10px;
+border-radius: 10px;
+background-color: #000;
+color: #fff;
+text-align: center;
+display: none;
+}
+.tooltip:hover:before{
+    display: block;
+} */
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+}
+
+.paginate {
+    box-shadow: 0px -1px 20px 1px rgba(0, 0, 0, 0.18);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 650px;
+
+}
+
+a {
+    color: #aaa;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    transition: all 0.1s ease-in;
+
+    &:last-child {
+        background-color: #eaeaea;
+
+    }
+
+    &:hover {
+        background-color: #3399ff;
+        color: white;
+    }
+
+
+}
+
+.paginate p {
+    color: #aaa;
+    font-size: 11px;
+    position: relative;
+bottom: 2px;
+
+}
+
+.paginate input {
+    height: 20px;
+    width: 30px;
+    position: relative;
+    top: 3px;
+    border: 1px solid ;
+    border-radius: 7px;
+
+}
+.paginate .Go-button{
+    width: 50px;
+    background-color: #fff;
+    position: relative
+    ;
+    top: 3px;
+}
+
+.paginate .Go-button:hover{
+    color: #3399ff;
+   
+
+
+}

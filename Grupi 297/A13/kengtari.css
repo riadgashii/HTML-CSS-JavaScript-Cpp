@@ -1,0 +1,26 @@
+body {
+    background-color: #673ab7;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ffeb3b;
+}
+
+h2 {
+    color: #ffc107;
+    font-size: 25px;
+}
+
+p {
+    color: #cddc39;
+    font-size: 18px;
+
+
+
+}
+
+em {
+    color: #ff5722;
+}

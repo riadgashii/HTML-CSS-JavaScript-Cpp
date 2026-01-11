@@ -1,0 +1,45 @@
+.box1 {
+    background-color: red;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.box2 {
+    background-color: yellow;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.box3 {
+    background-color: cyan;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.box4 {
+    background-color: blue;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.box5 {
+    background-color: gray;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.box6 {
+    background-color: purple;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-end; */
+    align-items: center;
+
+}

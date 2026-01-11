@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 60px;
+    display: flex;
+
+}
+
+header a {
+    display: flex;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+
+
+
+}
+
+header a:hover {
+    background-color: orangered;
+    color: black;
+}
+
+@media (max-width: 768px) {
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+    header{
+       display: flex;
+       flex-direction: column;
+       height: 300px;
+       justify-content: center;
+       align-items: center;
+      
+    }
+    header a{
+        margin: 20px;
+        width: 100%;
+        height: 100px;
+    }
+    header a:hover{
+        height: 100px;
+    }
+}

@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+}
+
+nav {
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    width: 230px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.logo {
+    padding-left: 12px;
+}
+
+.logo h4 {
+    font-size: 22px;
+    color: #1f1f1f;
+}
+
+.logo p {
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #1f1f1f;
+}
+
+header{
+    width: 70%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc{
+    width: 170px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+.paragraphs{
+    width: 340px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.category{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.paragraphs p{
+    padding: 0 25px;
+    color: #62666d;
+    letter-spacing: -1px;
+    font-size: 18px;
+}
+.category-list{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.category-list li{
+    list-style: none;
+    padding: 0 15px;
+    color: #62666d;
+    cursor: pointer;
+}
+.category-list li:hover{
+    color: black;
+}
+.big{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+}
+.products{
+    width: 85%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.card{
+    width: 240px;
+    height: 170px;
+    background-color: #f6f2ff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.card h1{
+    letter-spacing: -2px;
+    margin-top: 90px;
+    font-size: 27px;
+    font-weight: 600;
+}
+.card h3{
+    color: #62666d;
+    font-weight: 300;
+    margin-left: -100px;
+    margin-top: 5px;
+    letter-spacing: -1px;
+}
+.card p{
+    color: #62666d;
+    letter-spacing: -1px;
+    margin-left: -100px;
+    font-size: 15px;
+
+}
+.card img{
+    width: 150px;
+
+}

@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.info-card {
+    width: 300px;
+    height: 200px;
+    background-color: #3498db;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: ;/* shto vetin e nevojshme per te arritur pamjen*/
+}
+.card-content {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background-image: url('https://th.bing.com/th/id/OIP.Jek3CDQGyU5V2g3mChz8wQHaE-?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.card-details {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #00460d;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transform: translateY(0);
+    transition: transform 1s ease,bottom 1s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth appearance */  
+    transform: translateY(20px); /* Start slightly below */  
+
+}
+.info-card:hover {
+    opacity: 1;            /* Fully visible on hover */  
+    transform: translateY(0);
+}
+.info-card:hover .card-details {
+    transform: translateY(100%);
+    transition: transform 1s ease,bottom 1s ease;
+}

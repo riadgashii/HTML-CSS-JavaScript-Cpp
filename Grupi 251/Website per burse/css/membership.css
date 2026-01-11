@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+
+
+
+}
+
+
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.top-menu {
+    text-align: right;
+    position: relative;
+    top: 30px;
+}
+
+.menu {
+    list-style: none;
+    display: inline-flex;
+    gap: 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.flat-icon-search {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.menu li a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.title {
+    max-width: 50%;
+}
+
+.muzeu {
+    position: relative;
+    left: 78px;
+}
+
+.titulli {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+.emblema-kosoves {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    position: relative;
+    left: 0px;
+    top: 18px;
+}
+
+.header-buttons {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.header-buttons .dropdown {
+    position: relative;
+}
+
+.dropdown-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-link:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px 0;
+    z-index: 1000;
+    min-width: 200px;
+}
+
+.dropdown-content li {
+    list-style: none;
+}
+
+.dropdown-content li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content li a:hover {
+    background-color: #f5f5f5;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    background-color: #000;
+    color: #f5f5f5;
+
+}
+
+.footer-content {
+    display: flex;
+
+}
+
+.left-footer {
+    width: 600px;
+    margin: 20px;
+}
+
+
+
+
+.left-footer-images {
+    margin-top: 1px;
+
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999;
+    background-color: #999;
+    border-radius: 80%;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.left-footer-images:hover {
+    transform: scale(1.09);
+    background-color: #f5f5f5;
+    transition: 0.4s all ease;
+}
+
+.sign-up-bar {
+    display: flex;
+    height: 30px;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.sign-up {
+    border: 1px solid white;
+    background-color: black;
+    color: #f5f5f5;
+    width: 200px;
+    border-radius: 0%;
+}
+
+.sign-up-button {
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    width: 90px;
+
+}
+
+.right-footer {
+    display: block;
+    margin: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sign-up-button:hover {
+    background-color: #000;
+    color: #f5f5f5;
+    transition: 0.5s ease all;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    height: 600px;
+
+
+
+
+}
+
+.card-2 {
+    background-color: #f5f5f5;
+    margin: 30px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+}
+.card-2 h2{
+width: 200px;
+}
+.card-3 h2{
+    width: 200px;
+}
+.card-2 p {
+    width: 270px;
+    margin-top: 20px;
+}
+
+.card-2 a {
+    border: 1px solid #000;
+    width: 200px;
+    margin: 30px;
+    text-decoration: none;
+    color: #f5f5f5;
+    background-color: #000;
+    margin-top: 10px;
+}
+
+.card-2 a:hover {
+    background-color: #f5f5f5;
+    color: #000;
+    transition: 0.5s ease all;
+}
+
+.card-2 {
+    margin: 30px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-2 p {
+    width: 300px;
+}
+
+.card-2 a { 
+    border: 1px solid #000;
+    width: 200px;
+    margin: 30px;
+    text-decoration: none;
+    color: #f5f5f5;
+    background-color: #000;
+}
+
+.card-2 a:hover {
+    background-color: #f5f5f5;
+    color: #000;
+    transition: 0.5s ease all;
+}
+
+.card-1 {
+    background-color: #f5f5f5;
+    margin: 30px;
+    width: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-1 h2{
+    width: 200px;
+}
+.card-1 p {
+    width: 270px;
+margin-top: 20px;
+
+}
+
+.card-1 a {
+    border: 1px solid #000;
+    
+    width: 200px;
+    margin: 30px;
+    text-decoration: none;
+    color: #f5f5f5;
+    background-color: #000;
+}
+
+.card-1 a:hover {
+    background-color: #f5f5f5;
+    color: #000;
+    transition: 0.5s ease all;
+}
+
+.card-3 {
+    margin: 30px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    background-color: #f5f5f5;
+}
+
+.card-3 p {
+    width: 270px;
+    margin-top: 20px;
+    text-wrap: wrap;
+    
+}
+
+.card-3 a {
+    border: 1px solid #000;
+    width: 200px;
+    margin: 30px;
+    text-decoration: none;
+    color: #f5f5f5;
+    background-color: #000;
+}
+
+.card-3 a:hover {
+    background-color: #f5f5f5;
+    color: #000;
+    transition: 0.5s ease all;
+}

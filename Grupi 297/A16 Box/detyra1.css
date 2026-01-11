@@ -1,0 +1,8 @@
+.description {
+    width: 240px;
+    height: 80px;
+    background-color: cornflowerblue;
+border: 5px solid black;
+padding: 20px 10px 5px 10px;
+margin: 50px 20px 10px 15px;
+}
